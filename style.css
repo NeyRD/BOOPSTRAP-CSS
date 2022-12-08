@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #343A40;
+}
+#carouselExampleDark .carousel-inner img{
+    height: 570px;
+    opacity: 0.9;
+}
+
+.container-fluid .navbar-brand{
+    color: yellow;
+}
+
+.container-fluid .nav-item a{
+    color:white;
+}
+
+.container-fluid .d-flex input{
+    background: #353A40;
+    border: 1px solid #212539;
+    color: white;
+}
+
+#carouselExampleDark h5{
+    color: yellow;
+    font-size: 34px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+#carouselExampleDark p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    opacity: 0.8;
+    text-align: justify;
+    color: white;
+}
+
+#carouselExampleDark h6{
+    text-align: left;
+    color: white;
+}
+
+#carouselExampleDark .carousel-item button{
+    padding: 10px 30px;
+    border-radius: 50px;
+    background: rgb(54, 101, 187);
+    border: none;
+    color: white;
+    margin-left: -800px;
+    transition: 1s all ease;
+}
+
+#carouselExampleDark .carousel-item button:hover{
+    background: yellow;
+    color: black;
+}
+
+.text h2{
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 700;
+}
+.cont{
+    max-width: 1100px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    
+}
+
+.cont .cont-1{
+    display: flex;
+    margin: auto;
+    width: 65%;
+    height: auto;
+    margin-top: 50px;
+ 
+}
+.cont .cont-2{
+    display: flex;
+    margin: auto;
+    width: 25%;
+    height: 1000px;
+   
+    flex-direction: column;
+}
+.col{
+    
+    margin: 10px;
+    margin-top: 50px;
+    color: white;
+    background: #343A40;
+}
+.col img{
+    cursor: pointer;
+    height:200px ;
+}
+
+.card-body .card-title {
+    background: #343A40;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card-body {
+    background: #343A40;
+    height: 20px;
+
+}
+
+.col{
+    height: 270px;
+    border: none;
+}
+
+.col .card{
+    border: none;
+    width: 150px;
+
+}
+
+.cont .cont-2{
+    margin-top: 70px;
+}
+
+.cont .cont-2 .anuncio img{
+    width: 100%;
+}
+
+.cont-2 .car-serie h6{
+    text-align: center;
+    color: white;
+    background: #212539;
+    padding: 7px 10px;
+    border-radius: 10px;
+}
+.cont-2 .car-serie{
+    margin-top: 20px;
+    
+}
+
+.cont-2 .car-serie img{
+    width: 200px;
+}
+
+.cont-2 a{
+    text-decoration: none;
+  color: white;
+}
+
+footer{
+    max-width: 1100px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+@media(max-width:375px){
+    .cont-2 {
+        width: 40%;
+    }.cont-2 .car-serie{
+        margin-top: 140px;
+        
+    }
+}
+
+footer .pagination li a{
+background:#212539;
+color: white;
+border: none;
+}
+
+.center{
+    max-width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 100px;
+    color: white;
+    text-align: justify;
+}
+
+.center .card{
+    height: 400px;
+    border: 2px solid #212539 ;
+}
+
+
+
+
+.cont .cont-1 .col i{
+    position:absolute;
+    width: 100%;
+
+    
+}.cont .cont-1 .col i{
+
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    opacity: 0;
+    transition: 0.8s all ease;
+  
+}
+.cont .cont-1 .col {
+    transition: 0.8s all ease;
+    
+}
+.cont .cont-1 .col:hover{
+    opacity: 0.5;
+    
+}
+
+.cont .cont-1 .col:hover i{
+    opacity: 1;
+    color: aqua;
+    
+}
